@@ -1,0 +1,63 @@
+<html>
+  <head>
+  <meta charset="utf-8">
+ <script src="background.js"></script>
+ <script src="jquery-1.11.3.min.js"></script>
+ <script src="score.js"></script>
+ 
+ <style>
+
+ #score{
+ position:absolute;
+ left:0px;right:0px;top:200px;
+ width:100%;height:10px;
+ text-align:center;
+ font-size:160%;
+ }
+ 
+  #dot{
+ position:absolute;
+ left:45px;top:-25px;
+ width:100%;height:10px;
+ font-size:1000%;
+ font-weight: bold;
+ }
+   #by{
+ position:absolute;
+ left:187px;top:89px;
+ width:100%;height:10px;
+ font-size:140%;
+ font-weight: bold;
+ }
+ 
+ a:link{
+ color:red;
+ font-size:180%;
+ text-decoration:none;
+ font-weight: bold;
+ }
+
+</style>
+
+ </head>
+
+ <body style="width:400px;height:500px;">
+ 
+
+ <p id="dot" style="font-size:600%;
+ text-decoration:none;
+ font-weight: bold;">Dot</p><p id="by">by</p>
+ <img src="icon-a3-2.png" width="100px" height="100px" style="position:absolute;left:240px;top:40px;">
+ 
+ 
+ <div id="score" >
+ <p>High Score:</p>
+ <div id="showscore">0</div>
+ <a href="popup.html">Play</a>
+ </div>
+  
+   <script src="score.js"></script>
+ 
+ </body>
+
+</html>
